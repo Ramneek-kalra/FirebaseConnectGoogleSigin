@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "277143241440",
+    "firebase_url": "https://databaseconnect-001.firebaseio.com",
+    "project_id": "databaseconnect-001",
+    "storage_bucket": "databaseconnect-001.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277143241440:android:22ad8d01814dedae",
+        "android_client_info": {
+          "package_name": "com.ramneek.firebaseconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277143241440-k01qsj1spgfdmaf9cb1kve9mjggu8l01.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ramneek.firebaseconnect",
+            "certificate_hash": "de76205f6ba187a10931343ccfaa5f22b55ccf92"
+          }
+        },
+        {
+          "client_id": "277143241440-jjnfstn606u5p3v626stn57slmsltrhh.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "277143241440-jjnfstn606u5p3v626stn57slmsltrhh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDm9AsbozS_bVTsWlByg3JcCjRSSERQSOw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "277143241440-jjnfstn606u5p3v626stn57slmsltrhh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="Welcome to Database Connection!"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:id="@+id/HeadLine"
+        />
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/HeadLine"
+        app:cardCornerRadius="10dp"
+        android:id="@+id/cardLay"
+        android:layout_centerInParent="true"
+        android:elevation="1dp"
+        android:layout_margin="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:orientation="vertical"
+            android:id="@+id/firstLay"
+            android:layout_margin="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Enter your Name:"
+                />
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/uName"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:id="@+id/DegreeList"
+                android:text="Select your Degree of Course:"
+                />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/uDegree"
+                android:prompt="@string/spinner_title"
+                >
+            </Spinner>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:id="@+id/ClassSelect"
+                android:text="Enter your Class:"
+                />
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/uClass"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Enter your Address:"
+                />
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:maxLength="100"
+                android:id="@+id/uAddress"
+                />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/cardLay"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/AlertDialog.AppCompat.Light"
+            android:id="@+id/buttonCloud"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:text="Submit Details"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar"
+            android:id="@+id/buttonSearch"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:text="Search Details"
+            />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
